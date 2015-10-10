@@ -1,4 +1,5 @@
-import { moduleFor, test } from 'ember-qunit';
+import { moduleFor } from 'ember-qunit';
+import test from 'ember-sinon-qunit/test';
 
 moduleFor('route:index', 'Unit | Route | index', {
   // Specify the other units that are required for this test.
@@ -6,6 +7,6 @@ moduleFor('route:index', 'Unit | Route | index', {
 });
 
 test('it exists', function(assert) {
-  var route = this.subject();
+  const route = this.subject();
   assert.ok(route);
 });
