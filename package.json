@@ -1,6 +1,6 @@
 {
   "name": "dubtrack-ui",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "UI application for Dubtrack.fm",
   "private": true,
   "directories": {
