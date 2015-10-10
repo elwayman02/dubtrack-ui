@@ -23,7 +23,7 @@ You will need the following things properly installed on your computer.
 
 ### Installation
 
-* `git clone https://github.com/elwayman02/dubtrack-ui`
+* `git clone git@github.com:elwayman02/dubtrack-ui.git`
 * `cd dubtrack-ui`
 * `npm install`
 * `bower install`
