@@ -1,0 +1,111 @@
+scss_files: 'app/**/**/*.scss'
+linters:
+  BangFormat:
+    enabled: true
+  BorderZero:
+    enabled: true
+  ColorKeyword:
+    enabled: true
+  ColorVariable:
+    enabled: true
+  Comment:
+    enabled: true
+  DebugStatement:
+    enabled: true
+  DeclarationOrder:
+    enabled: true
+  DisableLinterReason:
+    enabled: true
+  DuplicateProperty:
+    enabled: true
+  ElsePlacement:
+    enabled: true
+  EmptyLineBetweenBlocks:
+    enabled: false
+  EmptyRule:
+    enabled: true
+  ExtendDirective:
+    enabled: false
+  FinalNewline:
+    enabled: true
+  HexLength:
+    enabled: true
+    style: long
+  HexNotation:
+    enabled: true
+    style: uppercase
+  HexValidation:
+    enabled: true
+  IdSelector:
+    enabled: true
+  ImportantRule:
+    enabled: true
+  ImportPath:
+    enabled: true
+  Indentation:
+    enabled: true
+  LeadingZero:
+    enabled: true
+    style: exclude_zero
+  MergeableSelector:
+    enabled: true
+  NameFormat: #None of the default conventions match our style guide
+    enabled: false
+  NestingDepth:
+    enabled: true
+  PlaceholderInExtend:
+    enabled: true
+  PropertyCount:
+    enabled: false
+  PropertySortOrder:
+    enabled: true
+  PropertySpelling:
+    enabled: true
+  QualifyingElement:
+    enabled: true
+  SelectorDepth:
+    enabled: true
+  SelectorFormat: #None of the default conventions match our style guide
+    enabled: false
+  Shorthand:
+    enabled: true
+  SingleLinePerProperty:
+    enabled: true
+  SingleLinePerSelector:
+    enabled: true
+  SpaceAfterComma:
+    enabled: true
+  SpaceAfterPropertyColon:
+    enabled: true
+  SpaceAfterPropertyName:
+    enabled: true
+  SpaceAfterVariableName:
+    enabled: true
+  SpaceAroundOperator:
+    enabled: true
+  SpaceBeforeBrace:
+    enabled: true
+  SpaceBetweenParens:
+    enabled: true
+  StringQuotes:
+    enabled: true
+  TrailingSemicolon:
+    enabled: true
+  TrailingWhitespace:
+    enabled: true
+  TrailingZero:
+    enabled: true
+  UnnecessaryMantissa:
+    enabled: true
+  UnnecessaryParentReference:
+    enabled: true
+  UrlFormat:
+    enabled: true
+  UrlQuotes:
+    enabled: true
+  VariableForProperty:
+    enabled: true
+  VendorPrefix:
+    enabled: true
+  ZeroUnit:
+    enabled: true

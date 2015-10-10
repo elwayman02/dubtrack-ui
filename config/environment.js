@@ -16,15 +16,31 @@ module.exports = function(environment) {
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
-    }
+    },
+
+    contentSecurityPolicy: {
+      'default-src': "'none'",
+      'script-src': "'self'",
+      'font-src': "'self' fonts.gstatic.com",
+      'connect-src': "'self' http://localhost:3000",
+      'img-src': "'self' data:",
+      'media-src': "'self'"
+    },
+
+    featureFlags: { // ember-feature-flags
+    },
+
+    metricsAdapters: [] // ember-metrics
   };
 
   if (environment === 'development') {
     // ENV.APP.LOG_RESOLVER = true;
     // ENV.APP.LOG_ACTIVE_GENERATION = true;
+    ENV.LOG_FEATURE_FLAG_MISS = true;
     // ENV.APP.LOG_TRANSITIONS = true;
     // ENV.APP.LOG_TRANSITIONS_INTERNAL = true;
     // ENV.APP.LOG_VIEW_LOOKUPS = true;
+    ENV.APP.API_SERVER = 'http://localhost:3000';
   }
 
   if (environment === 'test') {
@@ -40,7 +56,10 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-
+    const disableFeatures = [];
+    disableFeatures.forEach(function (key) {
+      ENV.featureFlags[key] = false;
+    });
   }
 
   return ENV;
