@@ -50,7 +50,7 @@
     "ember-disable-proxy-controllers": "^1.0.1",
     "ember-export-application-global": "^1.0.4",
     "ember-feature-flags": "2.0.0",
-    "ember-metrics": "0.5.1",
+    "ember-metrics": "0.6.0",
     "ember-moment": "4.1.0",
     "ember-pagefront": "0.6.0",
     "ember-paper": "0.2.8",
